@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ReactNativeFastInputModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.fastinput.ReactNativeFastInputModule"]
+  }
+}
