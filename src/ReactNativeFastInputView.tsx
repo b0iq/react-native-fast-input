@@ -1,11 +1,13 @@
-import { requireNativeViewManager } from 'expo-modules-core';
-import * as React from 'react';
+import { requireNativeViewManager } from "expo-modules-core";
+import * as React from "react";
 
-import { ReactNativeFastInputViewProps } from './ReactNativeFastInput.types';
+import { ReactNativeFastInputViewProps } from "./ReactNativeFastInput.types";
 
 const NativeView: React.ComponentType<ReactNativeFastInputViewProps> =
-  requireNativeViewManager('ReactNativeFastInput');
+  requireNativeViewManager("ReactNativeFastInput");
 
-export default function ReactNativeFastInputView(props: ReactNativeFastInputViewProps) {
+export default function ReactNativeFastInputView(
+  props: ReactNativeFastInputViewProps
+) {
   return <NativeView {...props} />;
 }
